@@ -11,11 +11,11 @@ export const loginPage = () => {
     clickLogin(username, password)
   }
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="min-h-screen flex items-center justify-center bg-green-100">
       <form onSubmit={handleSubmit}>
-      <input value={username} type="text" className="border" id="username" onChange={(e) => setUsername(e.target.value)}></input><br></br>
-      <input value={password} type="password" className="border" id="password" onChange={(e) => setPassword(e.target.value)}></input><br></br>
-      <button className="border p-3" onClick={handleSubmit} type="submit">Login</button>
+      <input value={username} type="text" className="border rounded-xl p-3 my-2" id="username" onChange={(e) => setUsername(e.target.value)}></input><br></br>
+      <input value={password} type="password" className="border rounded-xl p-3" id="password" onChange={(e) => setPassword(e.target.value)}></input><br></br>
+      <button className="border p-3 rounded-xl bg-green-500 my-4 " onClick={handleSubmit} type="submit">Login</button>
 
       </form>
     </div>
