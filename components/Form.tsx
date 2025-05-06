@@ -28,13 +28,13 @@ return(<>
 <form action={formAction}>
     
     <input className="border" 
-    placeholder="Camping Name" 
+    placeholder="Book Name" 
     name="title"
-    defaultValue="Korat Route 3060"/>
-    <input placeholder="location"
-            name="location"
+    defaultValue="หนังสือเรียน"/>
+    <input placeholder="ชื่อผู้ซื้อ"
+            name="name"
             className="border"
-            defaultValue="Korat"/>
+            defaultValue="วรวิบูล"/>
             <SubmitButton/>
 </form>
 </>)

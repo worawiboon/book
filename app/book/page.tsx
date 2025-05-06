@@ -1,9 +1,9 @@
-import CampList from "@/components/CampList"
+import CampList from "@/components/BookList"
 import Form from "@/components/Form"
 
 
 
-export const CampPage = () => {
+export const BookPage = () => {
   return (
     <div>
         <Form />
@@ -14,4 +14,4 @@ export const CampPage = () => {
   )
 }
 
-export default CampPage
+export default BookPage

@@ -11,16 +11,16 @@ export const createCamps = async(prevState:any,formData:FormData)=>{
     console.log(rawData)
     //revalidatePath('/camp')
     // redirect('/')
-    return 'create camp success!!'
+    return 'create book success!!'
 
 }
 
-export const fetchCamp = async()=>{
+export const fetchBook = async()=>{
 
     const camps = [
-        {id:1, title:'korat'},
-        {id:2, title:'saraburi'},
-        {id:3, title:'Nakohn Nayok'}
+        {id:1, title:'หนังสือคณิตศาสตร์ ม.1'},
+        {id:2, title:'หนังสือวิทยาศาสตร์ ม.1'},
+        {id:3, title:'หนังสือนิทาน'}
     ]
     return camps
 }

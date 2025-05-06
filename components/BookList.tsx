@@ -1,7 +1,7 @@
-import { fetchCamp } from "@/app/utils/actions"
+import { fetchBook } from "@/app/utils/actions"
 
-const CampList = async() => {
-        const camps = await fetchCamp()
+const BookList = async() => {
+        const camps = await fetchBook()
         console.log(camps)
 
   return (
@@ -14,4 +14,4 @@ const CampList = async() => {
     </div>
   )
 }
-export default CampList
+export default BookList
